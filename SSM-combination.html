@@ -8,11 +8,7 @@
     <meta name="baidu-site-verification" content="fmlEuI34ir">
     <meta name="google-site-verification" content="yCy2azpds5XSuGZvis6OuA-XIGF5GuGpYRAaGfD6o48">
     <meta name="360-site-verification" content="b7c11a830ef90fd1464ad6206bb7b6e7">
-    <meta name="description" content="1、整合Mybatis层
-新建普通Maven project
-
-导入依赖 pom.xml
-&amp;lt;!--依赖：junit, 数据库驱动，连接池，servlet，jsp，mybatis，mybatis-spring，spring    --&gt;">
+    <meta name="description" content="江喆的博客">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -81,7 +77,7 @@
             <div class="brand-logo">
                 <a href="/" class="waves-effect waves-light">
                     
-                    <img src="/medias/logo.png" class="logo-img" alt="LOGO">
+                    <img src="/medias/logo.jpg" class="logo-img" alt="LOGO">
                     
                     <span class="logo-span">江喆的博客</span>
                 </a>
@@ -165,7 +161,7 @@
 
     <div class="mobile-head bg-color">
         
-        <img src="/medias/logo.png" class="logo-img circle responsive-img">
+        <img src="/medias/logo.jpg" class="logo-img circle responsive-img">
         
         <div class="logo-name">江喆的博客</div>
         <div class="logo-desc">
@@ -598,12 +594,12 @@
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>build</span><span class="token punctuation">></span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 </li>
 <li><p><strong>建包，项目结构，连接数据库</strong></p>
-<p><img src="./pics/image-20200621191724965.png" alt="image-20200621191724965"></p>
-<p><img src="./pics/image-20200621191923897.png" alt="image-20200621191923897"></p>
+<p><img src="../images/image-20200621191724965.png" alt="image-20200621191724965"></p>
+<p><img src="../images/image-20200621191923897.png" alt="image-20200621191923897"></p>
 </li>
 <li><p><strong>新建resources文件</strong></p>
 <ol>
-<li><p><img src="./pics/image-20200621191757656.png" alt="image-20200621191757656"></p>
+<li><p><img src="../images/image-20200621191757656.png" alt="image-20200621191757656"></p>
 </li>
 <li><p>db.properties</p>
 <pre class="line-numbers language-properties"><code class="language-properties"><span class="token attr-name">driver</span><span class="token punctuation">=</span><span class="token attr-value">com.mysql.jdbc.Driver</span>
@@ -632,7 +628,7 @@
 </ol>
 </li>
 <li><p><strong>实体类pojo</strong></p>
-<p><img src="./pics/image-20200621192148811.png" alt="image-20200621192148811"></p>
+<p><img src="../images/image-20200621192148811.png" alt="image-20200621192148811"></p>
 <p>Books</p>
 <pre class="line-numbers language-java"><code class="language-java"><span class="token annotation punctuation">@Data</span>
 <span class="token annotation punctuation">@AllArgsConstructor</span>
@@ -648,7 +644,7 @@
 </ol>
 <ol start="6">
 <li><p><strong>Dao层</strong></p>
-<p><img src="./pics/image-20200621192114955.png" alt="image-20200621192114955"></p>
+<p><img src="/SSM-combination/image-20200621192114955.png" alt="image-20200621192114955"></p>
 <p>BookMapper接口</p>
 <pre class="line-numbers language-java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">interface</span> <span class="token class-name">BookMapper</span> <span class="token punctuation">{</span>
 
@@ -703,7 +699,7 @@
 
 <ol start="7">
 <li><p><strong>service层</strong></p>
-<p><img src="./pics/image-20200621192344402.png" alt="image-20200621192344402"></p>
+<p><img src="/SSM-combination/image-20200621192344402.png" alt="image-20200621192344402"></p>
 <p>BookService接口</p>
 <pre class="line-numbers language-java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">interface</span> <span class="token class-name">BookService</span> <span class="token punctuation">{</span>
     <span class="token comment" spellcheck="true">//增加一本书</span>
@@ -885,10 +881,10 @@
 </li>
 </ol>
 <p>注意：这几个spring的xml文件需要绑定到一起。</p>
-<p><img src="./pics/image-20200621203858813.png" alt="image-20200621203858813"></p>
+<p><img src="/SSM-combination/image-20200621203858813.png" alt="image-20200621203858813"></p>
 <h2 id="3、整合SpringMVC层"><a href="#3、整合SpringMVC层" class="headerlink" title="3、整合SpringMVC层"></a>3、整合SpringMVC层</h2><ol>
 <li><p><strong>添加web 框架支持</strong></p>
-<p><img src="./pics/image-20200622091459648.png" alt="image-20200622091459648"></p>
+<p><img src="/SSM-combination/image-20200622091459648.png" alt="image-20200622091459648"></p>
 </li>
 </ol>
 <ol start="2">
@@ -987,11 +983,11 @@
 <li><p><strong>WEB-INF下没有lib目录</strong></p>
 </li>
 </ol>
-<p>   <img src="./pics/image-20200621115611746.png" alt="image-20200621115611746"></p>
-<p>   <img src="./pics/image-20200621115713887.png" alt="image-20200621115713887"></p>
+<p>   <img src="/SSM-combination/image-20200621115611746.png" alt="image-20200621115611746"></p>
+<p>   <img src="/SSM-combination/image-20200621115713887.png" alt="image-20200621115713887"></p>
 <ol start="3">
 <li><p><strong>spring-dao.xml  配置文件头部单词有错误的，要检查好几个地方是否一致。</strong></p>
-<p><img src="./pics/image-20200622103440179.png" alt="image-20200622103440179"></p>
+<p><img src="/SSM-combination/image-20200622103440179.png" alt="image-20200622103440179"></p>
 </li>
 <li><p><strong>db.properties需要加上jdbc.前缀</strong></p>
 <pre class="line-numbers language-properties"><code class="language-properties"><span class="token attr-name">jdbc.driver</span><span class="token punctuation">=</span><span class="token attr-value">com.mysql.jdbc.Driver</span>
@@ -1072,12 +1068,12 @@
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>session-config</span><span class="token punctuation">></span></span>
 
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>web-app</span><span class="token punctuation">></span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<p><img src="./pics/image-20200622110944960.png" alt="image-20200622110944960"></p>
+<p><img src="/SSM-combination/image-20200622110944960.png" alt="image-20200622110944960"></p>
 </li>
 </ol>
 <ol start="8">
 <li><p><strong>BookController类中忘记写@RequestMapping</strong></p>
-<p><img src="./pics/image-20200622111105796.png" alt="image-20200622111105796"></p>
+<p><img src="/SSM-combination/image-20200622111105796.png" alt="image-20200622111105796"></p>
 </li>
 </ol>
 <h2 id="5、查询书籍功能"><a href="#5、查询书籍功能" class="headerlink" title="5、查询书籍功能"></a>5、查询书籍功能</h2><ol>
@@ -1170,7 +1166,7 @@
 </html><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></%@></%@></code></pre>
 </li>
 <li><p><strong>查询页面显示localhost:8080/book/allBook</strong></p>
-<p><img src="./pics/image-20200622125728472.png" alt="image-20200622125728472"></p>
+<p><img src="/SSM-combination/image-20200622125728472.png" alt="image-20200622125728472"></p>
 </li>
 </ol>
 <h2 id="6、增加书籍功能"><a href="#6、增加书籍功能" class="headerlink" title="6、增加书籍功能"></a>6、增加书籍功能</h2><ol>
@@ -1245,7 +1241,7 @@
 </li>
 </ol>
 <p>   点击添加按钮之后，重定向到<a href="http://localhost:8080/book/allBook，并显示所有书籍。" target="_blank" rel="noopener">http://localhost:8080/book/allBook，并显示所有书籍。</a></p>
-<p>   <img src="./pics/image-20200622133603787.png" alt="image-20200622133603787"></p>
+<p>   <img src="/SSM-combination/image-20200622133603787.png" alt="image-20200622133603787"></p>
 <h2 id="7、修改删除书籍功能"><a href="#7、修改删除书籍功能" class="headerlink" title="7、修改删除书籍功能"></a>7、修改删除书籍功能</h2><ol>
 <li><p><strong>在allBook.jsp页面中加入  修改 与 删除 的超链接，点击修改会跳转到</strong><a href="http://localhost:8080/book/toUpdate?id=" target="_blank" rel="noopener">http://localhost:8080/book/toUpdate?id=</a></p>
 <pre class="line-numbers language-jsp"><code class="language-jsp"><td>
@@ -1253,7 +1249,7 @@
     &nbsp; | &nbsp;
     <a href="#">删除</a>
 </td><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<p><img src="./pics/image-20200622152706638.png" alt="image-20200622152706638"></p>
+<p><img src="/SSM-combination/image-20200622152706638.png" alt="image-20200622152706638"></p>
 </li>
 <li><p><strong>需要一个/toUpdate的操作，所以在BookController类中加入跳转到修改书籍页面的方法</strong></p>
 <pre class="line-numbers language-java"><code class="language-java"><span class="token comment" spellcheck="true">//跳转到修改书籍页面</span>
@@ -1329,7 +1325,7 @@
     &nbsp; | &nbsp;
     <a href="${pageContext.request.contextPath}/book/deleteBook/${book.bookID}">删除</a>
 </td><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<p><img src="./pics/image-20200622160622931.png" alt="image-20200622160622931"></p>
+<p><img src="/SSM-combination/image-20200622160622931.png" alt="image-20200622160622931"></p>
 </li>
 <li><p><strong>在BookController中新增删除方法</strong></p>
 <pre class="line-numbers language-java"><code class="language-java"><span class="token comment" spellcheck="true">//删除书籍</span>
@@ -1351,7 +1347,7 @@
         <input type="submit" value="查询" class="btn btn-primary">
     </form>
 </%--查询书籍--%></div><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<p><img src="./pics/image-20200622190301855.png" alt="image-20200622190301855"></p>
+<p><img src="/SSM-combination/image-20200622190301855.png" alt="image-20200622190301855"></p>
 </li>
 <li><p>在BookMapper接口中新增查询方法</p>
 <pre class="line-numbers language-java"><code class="language-java"><span class="token comment" spellcheck="true">//通过书名查询</span>
@@ -1383,11 +1379,11 @@ List<span class="token operator">&lt;</span>Books<span class="token operator">><
 <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 </li>
 </ol>
-<h4 id="效果展示："><a href="#效果展示：" class="headerlink" title="效果展示："></a>效果展示：</h4><p><img src="./pics/image-20200622191122089.png" alt="image-20200622191122089"></p>
+<h4 id="效果展示："><a href="#效果展示：" class="headerlink" title="效果展示："></a>效果展示：</h4><p><img src="/SSM-combination/image-20200622191122089.png" alt="image-20200622191122089"></p>
 <p><strong>查询虚拟机：</strong></p>
-<p><img src="./pics/image-20200622191158612.png" alt="image-20200622191158612"></p>
+<p><img src="/SSM-combination/image-20200622191158612.png" alt="image-20200622191158612"></p>
 <p><strong>查询Java：</strong></p>
-<p><img src="./pics/image-20200622191227267.png" alt="image-20200622191227267"></p>
+<p><img src="/SSM-combination/image-20200622191227267.png" alt="image-20200622191227267"></p>
 
             </div>
             <hr>
@@ -1545,7 +1541,7 @@ List<span class="token operator">&lt;</span>Books<span class="token operator">><
             <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">
                     《》
                 </span> 由
-            <a xmlns:cc="http://creativecommons.org/ns#" href="/2020/07/03/zheng-he-ssm/" property="cc:attributionName" rel="cc:attributionURL">
+            <a xmlns:cc="http://creativecommons.org/ns#" href="/SSM-combination.html" property="cc:attributionName" rel="cc:attributionURL">
                 江喆
             </a> 采用
             <a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.zh">
@@ -1585,7 +1581,7 @@ List<span class="token operator">&lt;</span>Books<span class="token operator">><
         repo: 'godweiyang.github.io',
         owner: 'godweiyang',
         admin: "godweiyang",
-        id: '2020/07/03/zheng-he-ssm/',
+        id: 'SSM-combination.html',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -1870,9 +1866,10 @@ List<span class="token operator">&lt;</span>Books<span class="token operator">><
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="fa fa-dot-circle-o"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2020/07/03/spring-zhu-jie-qu-dong-kai-fa/">
+                <a href="/SSM-combination.html">
                     <div class="card-image">
                         
                         
@@ -1884,22 +1881,23 @@ List<span class="token operator">&lt;</span>Books<span class="token operator">><
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Spring注解驱动开发
-1、@Configuration 告诉Spring这是一个配置类使用配置类替换原来的配置文件。
-//配置类==配置文件
-@Configuration //告诉Spring这是一个配置类
-public class M
+                            1、整合Mybatis层
+新建普通Maven project
+
+导入依赖 pom.xml
+&lt;!--依赖：junit, 数据库驱动，连接池，servlet，jsp，mybatis，mybatis-spring，spring    -->
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="fa fa-clock-o fa-fw icon-date"></i>2020-07-03
-                        </span>
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-07-03
+                            </span>
                         <span class="publish-author">
                             
                         </span>
                     </div>
                 </div>
+
                 
             </div>
         </div>
@@ -1907,52 +1905,38 @@ public class M
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fa fa-chevron-right"></i>
+                本篇&nbsp;<i class="fa fa-dot-circle-o"></i>
             </div>
             <div class="card">
-                <a href="/2020/02/16/sort-algorithms/">
+                <a href="/SSM-combination.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="十大经典排序算法整理汇总（附代码）">
+                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt>
                         
-                        <span class="card-title">十大经典排序算法整理汇总（附代码）</span>
+                        <span class="card-title"></span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            本文整理并总结了十大经典的排序算法（冒泡排序、选择排序、插入排序、快速排序、归并排序、希尔排序、计数排序、基数排序、桶排序、堆排序）的时间复杂度、空间复杂度等性质。
+                            1、整合Mybatis层
+新建普通Maven project
+
+导入依赖 pom.xml
+&lt;!--依赖：junit, 数据库驱动，连接池，servlet，jsp，mybatis，mybatis-spring，spring    -->
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-02-16
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-07-03
                             </span>
                         <span class="publish-author">
-                            
-                            <i class="fa fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/编程算法/" class="post-category" target="_blank">
-                                    编程算法
-                                </a>
-                            
                             
                         </span>
                     </div>
                 </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/leetcode/" target="_blank">
-                        <span class="chip bg-color">leetcode</span>
-                    </a>
-                    
-                    <a href="/tags/算法/" target="_blank">
-                        <span class="chip bg-color">算法</span>
-                    </a>
-                    
-                </div>
+
                 
             </div>
         </div>
@@ -2104,7 +2088,7 @@ public class M
 
             
             &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-            <span class="white-color">12.7k</span>
+            <span class="white-color">11.1k</span>
             
 
             <br>

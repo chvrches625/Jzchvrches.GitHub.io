@@ -4,7 +4,7 @@
 
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="JiangZhe HDU">
+    <meta name="keywords" content="spring-annotation, JiangZhe HDU">
     <meta name="baidu-site-verification" content="fmlEuI34ir">
     <meta name="google-site-verification" content="yCy2azpds5XSuGZvis6OuA-XIGF5GuGpYRAaGfD6o48">
     <meta name="360-site-verification" content="b7c11a830ef90fd1464ad6206bb7b6e7">
@@ -20,7 +20,7 @@ public class M">
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>江喆的博客</title>
+    <title>spring-annotation | 江喆的博客</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -81,7 +81,7 @@ public class M">
             <div class="brand-logo">
                 <a href="/" class="waves-effect waves-light">
                     
-                    <img src="/medias/logo.png" class="logo-img" alt="LOGO">
+                    <img src="/medias/logo.jpg" class="logo-img" alt="LOGO">
                     
                     <span class="logo-span">江喆的博客</span>
                 </a>
@@ -165,7 +165,7 @@ public class M">
 
     <div class="mobile-head bg-color">
         
-        <img src="/medias/logo.png" class="logo-img circle responsive-img">
+        <img src="/medias/logo.jpg" class="logo-img circle responsive-img">
         
         <div class="logo-name">江喆的博客</div>
         <div class="logo-desc">
@@ -339,7 +339,7 @@ public class M">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        
+                        spring-annotation
                     </div>
                 </div>
             </div>
@@ -449,11 +449,28 @@ public class M">
                 <div class="col s7">
                     
                     <div class="article-tag">
-                        <span class="chip bg-color">无标签</span>
+                        
+                        <a href="/tags/Spring/" target="_blank">
+                            <span class="chip bg-color">Spring</span>
+                        </a>
+                        
+                        <a href="/tags/Annotation/" target="_blank">
+                            <span class="chip bg-color">Annotation</span>
+                        </a>
+                        
                     </div>
                     
                 </div>
                 <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fa fa-bookmark fa-fw icon-category"></i>
+                        
+                        <a href="/categories/Spring框架/" class="post-category" target="_blank">
+                            Spring框架
+                        </a>
+                        
+                    </div>
                     
                 </div>
             </div>
@@ -461,7 +478,7 @@ public class M">
             <div class="post-info">
                 <div class="post-date info-break-policy">
                     <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-07-03
+                    2020-06-03
                 </div>
 
                 <div class="post-author info-break-policy">
@@ -498,7 +515,7 @@ public class M">
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="Spring注解驱动开发"><a href="#Spring注解驱动开发" class="headerlink" title="Spring注解驱动开发"></a><strong>Spring</strong>注解驱动开发</h2><p><img src="./pics/image-20200623130704831.png" alt="image-20200623130704831"></p>
+                <h2 id="Spring注解驱动开发"><a href="#Spring注解驱动开发" class="headerlink" title="Spring注解驱动开发"></a><strong>Spring</strong>注解驱动开发</h2><p><img src="1.png" alt="image-20200623130704831"></p>
 <h3 id="1、-Configuration-告诉Spring这是一个配置类"><a href="#1、-Configuration-告诉Spring这是一个配置类" class="headerlink" title="1、@Configuration 告诉Spring这是一个配置类"></a><strong>1、@Configuration 告诉Spring这是一个配置类</strong></h3><p>使用配置类替换原来的配置文件。</p>
 <pre class="line-numbers language-java"><code class="language-java"><span class="token comment" spellcheck="true">//配置类==配置文件</span>
 <span class="token annotation punctuation">@Configuration</span> <span class="token comment" spellcheck="true">//告诉Spring这是一个配置类</span>
@@ -1000,8 +1017,7 @@ initializeBean
     applyBeanPostProcessorsBeforeInitialization(wrappedBean, beanName);
     invokeInitMethods(beanName, wrappedBean, mbd);执行自定义初始化
     applyBeanPostProcessorsAfterInitialization(wrappedBean, beanName);
-}</code></pre><h4 id="Spring底层对-BeanPostProcessor-的使用；"><a href="#Spring底层对-BeanPostProcessor-的使用；" class="headerlink" title="Spring底层对 BeanPostProcessor 的使用；"></a>Spring底层对 BeanPostProcessor 的使用；</h4><pre class="line-numbers language-java"><code class="language-java">
-    bean赋值，注入其他组件，<span class="token annotation punctuation">@Autowired</span>，生命周期注解功能，<span class="token annotation punctuation">@Async</span><span class="token punctuation">,</span>xxx BeanPostProcessor<span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+}</code></pre><h4 id="Spring底层对-BeanPostProcessor-的使用；"><a href="#Spring底层对-BeanPostProcessor-的使用；" class="headerlink" title="Spring底层对 BeanPostProcessor 的使用；"></a>Spring底层对 BeanPostProcessor 的使用；</h4><pre class="line-numbers language-java"><code class="language-java">    bean赋值，注入其他组件，<span class="token annotation punctuation">@Autowired</span>，生命周期注解功能，<span class="token annotation punctuation">@Async</span><span class="token punctuation">,</span>xxx BeanPostProcessor<span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <h3 id="8、-Value-对属性赋值"><a href="#8、-Value-对属性赋值" class="headerlink" title="8、 @Value 对属性赋值"></a>8、 @Value 对属性赋值</h3><pre class="line-numbers language-java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Person</span> <span class="token punctuation">{</span>
 
    <span class="token comment" spellcheck="true">//使用@Value赋值；</span>
@@ -1269,8 +1285,8 @@ System<span class="token punctuation">.</span>out<span class="token punctuation"
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <h3 id="小结："><a href="#小结：" class="headerlink" title="小结："></a>小结：</h3><p><strong>最重要的两个是@Conditional  和 @Import</strong></p>
-<p><img src="./pics/image-20200626084452074.png" alt="image-20200626084452074"></p>
-<p><img src="./pics/image-20200626084536962.png" alt="image-20200626084536962"></p>
+<p><img src="2.png" alt="image-20200626084452074"></p>
+<p><img src="3.png" alt="image-20200626084536962"></p>
 <h3 id="11、-AOP"><a href="#11、-AOP" class="headerlink" title="11、 AOP"></a>11、 AOP</h3><p>AOP：【动态代理】</p>
 <ul>
 <li>指在程序运行期间动态的将某段代码切入到指定方法指定位置进行运行的编程方式；</li>
@@ -1478,8 +1494,7 @@ System<span class="token punctuation">.</span>out<span class="token punctuation"
 <li>bean = applyBeanPostProcessorsBeforeInstantiation（）：</li>
 <li>拿到所有后置处理器，如果是InstantiationAwareBeanPostProcessor;</li>
 <li>就执行postProcessBeforeInstantiation</li>
-<li>if (bean != null) {<pre><code>           bean = applyBeanPostProcessorsAfterInitialization(bean, beanName);
-       }</code></pre></li>
+<li>if (bean != null) {<br>bean = applyBeanPostProcessorsAfterInitialization(bean, beanName);<br>}</li>
 </ul>
 </li>
 </ul>
@@ -1673,9 +1688,8 @@ System<span class="token punctuation">.</span>out<span class="token punctuation"
 <li><p>再获取PlatformTransactionManager，如果事先没有添加指定任何transactionmanger</p>
 <p>最终会从容器中按照类型获取一个PlatformTransactionManager；</p>
 </li>
-</ol>
-<ol start="3">
-<li>执行目标方法<ul>
+<li><p>执行目标方法</p>
+<ul>
 <li>如果异常，获取到事务管理器，利用事务管理回滚操作；</li>
 <li>如果正常，利用事务管理器，提交事务</li>
 </ul>
@@ -1982,9 +1996,9 @@ System<span class="token punctuation">.</span>out<span class="token punctuation"
             <br/>
             <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text"
                   property="dct:title" rel="dct:type">
-                    《》
+                    《spring-annotation》
                 </span> 由
-            <a xmlns:cc="http://creativecommons.org/ns#" href="/2020/07/03/spring-zhu-jie-qu-dong-kai-fa/" property="cc:attributionName"
+            <a xmlns:cc="http://creativecommons.org/ns#" href="/2020/06/03/spring/" property="cc:attributionName"
                rel="cc:attributionURL">
                 江喆
             </a> 采用
@@ -2025,7 +2039,7 @@ System<span class="token punctuation">.</span>out<span class="token punctuation"
         repo: 'godweiyang.github.io',
         owner: 'godweiyang',
         admin: "godweiyang",
-        id: '2020/07/03/spring-zhu-jie-qu-dong-kai-fa/',
+        id: '2020/06/03/spring/',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -2308,40 +2322,57 @@ System<span class="token punctuation">.</span>out<span class="token punctuation"
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fa fa-dot-circle-o"></i>&nbsp;本篇
-            </div>
+                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2020/07/03/spring-zhu-jie-qu-dong-kai-fa/">
+                <a href="/2020/07/03/ssm-combination/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="">
+                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="SSM-Combination">
                         
-                        <span class="card-title"></span>
+                        <span class="card-title">SSM-Combination</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Spring注解驱动开发
-1、@Configuration 告诉Spring这是一个配置类使用配置类替换原来的配置文件。
-//配置类==配置文件
-@Configuration //告诉Spring这是一个配置类
-public class M
+                            本文记录了整合SSM的过程以及遇到的一些问题，实现了基本的CRUD操作
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-07-03
-                            </span>
+                        <span class="publish-date">
+                            <i class="fa fa-clock-o fa-fw icon-date"></i>2020-07-03
+                        </span>
                         <span class="publish-author">
+                            
+                            <i class="fa fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/框架/" class="post-category" target="_blank">
+                                    框架
+                                </a>
+                            
                             
                         </span>
                     </div>
                 </div>
-
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Spring/" target="_blank">
+                        <span class="chip bg-color">Spring</span>
+                    </a>
+                    
+                    <a href="/tags/SpringMVC/" target="_blank">
+                        <span class="chip bg-color">SpringMVC</span>
+                    </a>
+                    
+                    <a href="/tags/MyBatis/" target="_blank">
+                        <span class="chip bg-color">MyBatis</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>
@@ -2349,36 +2380,52 @@ public class M
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fa fa-chevron-right"></i>
+                本篇&nbsp;<i class="fa fa-dot-circle-o"></i>
             </div>
             <div class="card">
-                <a href="/2020/07/03/zheng-he-ssm/">
+                <a href="/2020/06/03/spring/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="">
+                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="spring-annotation">
                         
-                        <span class="card-title"></span>
+                        <span class="card-title">spring-annotation</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            1、整合Mybatis层
-新建普通Maven project
-
-导入依赖 pom.xml
-&lt;!--依赖：junit, 数据库驱动，连接池，servlet，jsp，mybatis，mybatis-spring，spring    -->
+                            本文为Spring的注解驱动开发
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-07-03
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-06-03
                             </span>
                         <span class="publish-author">
                             
+                            <i class="fa fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Spring框架/" class="post-category" target="_blank">
+                                    Spring框架
+                                </a>
+                            
+                            
                         </span>
                     </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Spring/" target="_blank">
+                        <span class="chip bg-color">Spring</span>
+                    </a>
+                    
+                    <a href="/tags/Annotation/" target="_blank">
+                        <span class="chip bg-color">Annotation</span>
+                    </a>
+                    
                 </div>
                 
             </div>
@@ -2524,6 +2571,25 @@ public class M
 </main>
 
 
+<script src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script>
+    MathJax.Hub.Config({
+        tex2jax: {inlineMath: [['$', '$'], ['\(', '\)']]}
+    });
+</script>
+
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+<!-- 代码语言 -->
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+<!-- 代码块复制 -->
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+<script type="text/javascript" src="/libs/codeBlock/clipboard.min.js"></script>
+<!-- 代码块收缩 -->
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script> 
+<!-- 代码块折行 -->
+<style type="text/css">code[class*="language-"], pre[class*="language-"] { white-space: pre !important; }</style>
+
+
     <footer class="page-footer bg-color">
     <div class="container row center-align">
         <div class="col s12 m8 l8 copy-right">
@@ -2531,7 +2597,7 @@ public class M
 
             
             &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-            <span class="white-color">12.7k</span>
+            <span class="white-color">11.1k</span>
             
 
             <br>

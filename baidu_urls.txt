@@ -1,3 +1,2 @@
-https://godweiyang.com/2020/07/03/spring-zhu-jie-qu-dong-kai-fa/
-https://godweiyang.com/2020/07/03/zheng-he-ssm/
-https://godweiyang.com/2020/02/16/sort-algorithms/
+https://godweiyang.com/2020/07/03/ssm-combination/
+https://godweiyang.com/2020/06/03/spring/

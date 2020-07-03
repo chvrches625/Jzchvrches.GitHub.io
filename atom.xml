@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://godweiyang.com/"/>
-  <updated>2020-07-03T11:24:16.513Z</updated>
+  <updated>2020-07-03T14:17:46.351Z</updated>
   <id>https://godweiyang.com/</id>
   
   <author>
@@ -17,33 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="https://godweiyang.com/2020/07/03/spring-zhu-jie-qu-dong-kai-fa/"/>
-    <id>https://godweiyang.com/2020/07/03/spring-zhu-jie-qu-dong-kai-fa/</id>
-    <published>2020-07-03T11:17:30.476Z</published>
-    <updated>2020-07-03T11:24:16.513Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;Spring注解驱动开发&quot;&gt;&lt;a href=&quot;#Spring注解驱动开发&quot; class=&quot;headerlink&quot; title=&quot;Spring注解驱动开发&quot;&gt;&lt;/a&gt;&lt;strong&gt;Spring&lt;/strong&gt;注解驱动开发&lt;/h2&gt;&lt;p&gt;&lt;img
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="https://godweiyang.com/2020/07/03/zheng-he-ssm/"/>
-    <id>https://godweiyang.com/2020/07/03/zheng-he-ssm/</id>
-    <published>2020-07-03T11:17:30.443Z</published>
-    <updated>2020-07-03T11:23:36.258Z</updated>
+    <title>SSM-Combination</title>
+    <link href="https://godweiyang.com/2020/07/03/ssm-combination/"/>
+    <id>https://godweiyang.com/2020/07/03/ssm-combination/</id>
+    <published>2020-07-03T14:09:46.000Z</published>
+    <updated>2020-07-03T14:17:46.351Z</updated>
     
     <summary type="html">
     
@@ -58,15 +36,23 @@
     
     </summary>
     
+      <category term="框架" scheme="https://godweiyang.com/categories/%E6%A1%86%E6%9E%B6/"/>
+    
+    
+      <category term="Spring" scheme="https://godweiyang.com/tags/Spring/"/>
+    
+      <category term="SpringMVC" scheme="https://godweiyang.com/tags/SpringMVC/"/>
+    
+      <category term="MyBatis" scheme="https://godweiyang.com/tags/MyBatis/"/>
     
   </entry>
   
   <entry>
-    <title>十大经典排序算法整理汇总（附代码）</title>
-    <link href="https://godweiyang.com/2020/02/16/sort-algorithms/"/>
-    <id>https://godweiyang.com/2020/02/16/sort-algorithms/</id>
-    <published>2020-02-16T07:09:23.000Z</published>
-    <updated>2020-04-05T02:43:43.000Z</updated>
+    <title>spring-annotation</title>
+    <link href="https://godweiyang.com/2020/06/03/spring/"/>
+    <id>https://godweiyang.com/2020/06/03/spring/</id>
+    <published>2020-06-03T14:03:47.000Z</published>
+    <updated>2020-07-03T14:19:21.982Z</updated>
     
     <summary type="html">
     
@@ -74,22 +60,18 @@
       
         
         
-          &lt;blockquote&gt;
-&lt;p&gt;关注公众号【算法码上来】，每日算法干货马上就来！&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&quot;/medias/contact.jpg&quot; alt&gt;&lt;/p&gt;
-&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot;
+          &lt;h2 id=&quot;Spring注解驱动开发&quot;&gt;&lt;a href=&quot;#Spring注解驱动开发&quot; class=&quot;headerlink&quot; title=&quot;Spring注解驱动开发&quot;&gt;&lt;/a&gt;&lt;strong&gt;Spring&lt;/strong&gt;注解驱动开发&lt;/h2&gt;&lt;p&gt;&lt;img
         
       
     
     </summary>
     
-      <category term="编程算法" scheme="https://godweiyang.com/categories/%E7%BC%96%E7%A8%8B%E7%AE%97%E6%B3%95/"/>
+      <category term="Spring框架" scheme="https://godweiyang.com/categories/Spring%E6%A1%86%E6%9E%B6/"/>
     
     
-      <category term="leetcode" scheme="https://godweiyang.com/tags/leetcode/"/>
+      <category term="Spring" scheme="https://godweiyang.com/tags/Spring/"/>
     
-      <category term="算法" scheme="https://godweiyang.com/tags/%E7%AE%97%E6%B3%95/"/>
+      <category term="Annotation" scheme="https://godweiyang.com/tags/Annotation/"/>
     
   </entry>
   
