@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://godweiyang.com/"/>
-  <updated>2020-04-05T02:43:43.000Z</updated>
+  <updated>2020-07-03T11:24:16.513Z</updated>
   <id>https://godweiyang.com/</id>
   
   <author>
@@ -15,6 +15,51 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="https://godweiyang.com/2020/07/03/spring-zhu-jie-qu-dong-kai-fa/"/>
+    <id>https://godweiyang.com/2020/07/03/spring-zhu-jie-qu-dong-kai-fa/</id>
+    <published>2020-07-03T11:17:30.476Z</published>
+    <updated>2020-07-03T11:24:16.513Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;Spring注解驱动开发&quot;&gt;&lt;a href=&quot;#Spring注解驱动开发&quot; class=&quot;headerlink&quot; title=&quot;Spring注解驱动开发&quot;&gt;&lt;/a&gt;&lt;strong&gt;Spring&lt;/strong&gt;注解驱动开发&lt;/h2&gt;&lt;p&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://godweiyang.com/2020/07/03/zheng-he-ssm/"/>
+    <id>https://godweiyang.com/2020/07/03/zheng-he-ssm/</id>
+    <published>2020-07-03T11:17:30.443Z</published>
+    <updated>2020-07-03T11:23:36.258Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;1、整合Mybatis层&quot;&gt;&lt;a href=&quot;#1、整合Mybatis层&quot; class=&quot;headerlink&quot; title=&quot;1、整合Mybatis层&quot;&gt;&lt;/a&gt;1、整合Mybatis层&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;新建普通Maven
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>十大经典排序算法整理汇总（附代码）</title>
